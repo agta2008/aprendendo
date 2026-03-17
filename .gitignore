@@ -1,0 +1,9 @@
+# Ignore compiled executables
+*.out
+*.exe
+*.o
+*.obj
+
+# Ignore common OS temporary files
+.DS_Store
+Thumbs.db
