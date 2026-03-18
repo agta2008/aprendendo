@@ -1,6 +1,6 @@
 #include  <stdio.h>
 #include <stdlib.h>
-
+#include <time.h>
 
 int main() {
     //introduçao ao jogo super fodastico
@@ -8,7 +8,14 @@ int main() {
     printf("*Bem vindo ao jogo de advinhaçao*\n");
     printf("*********************************.\n");
 
-    int numerosecreto = 42;
+//definindo segundos como minha semente do meu numero randomico
+    int segundos = time(0);
+    srand(segundos);
+
+    int numerogrande = rand();
+
+
+    int numerosecreto = numerogrande % 100;
     int chute = -1;
     int i = 1;
 

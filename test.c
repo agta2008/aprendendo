@@ -1,8 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main (){
-    short a = abs(3);
-    short b = abs(-3);
+#include <time.h>
 
-    printf("%d, %d \n", a, b);
+
+
+
+int main (){
+
+    int segundos = time(0);
+    srand(segundos);
+
+
+    int n1 = rand();
+    int n2 = rand();
+
+    printf("%d, %d\n", n1, n2);
 }
