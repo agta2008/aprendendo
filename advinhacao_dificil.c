@@ -44,7 +44,7 @@ int main() {
             if (chute < numerosecreto){
                 printf("Seu numero foi menor que o numero secreto \n");
             }
-    }
+        }
 
         //calculo da pontuacao
         double pontosperdidos = abs(chute - numerosecreto) / 2.0;
