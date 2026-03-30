@@ -1,0 +1,1 @@
+Bom essa e uma das primeiras vezes que to usando o github para guardar meu repositorio, e tambem estou aprendendo a mexer com C nas aulas da alura, se voce (pessoa que ta lendo) se perguntar porque tem 2 advnhacao.c um novo e outro nao e pq eu nao sei dar nome ent viva bem com isso kkkkkkk
